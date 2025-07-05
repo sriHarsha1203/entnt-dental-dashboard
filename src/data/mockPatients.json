@@ -1,0 +1,23 @@
+[
+  {
+    "id": "p1",
+    "name": "John Doe",
+    "dob": "1990-05-10",
+    "contact": "1234567890",
+    "healthInfo": "No allergies"
+  },
+  {
+    "id": "p2",
+    "name": "Alice Smith",
+    "dob": "1988-03-12",
+    "contact": "9988776655",
+    "healthInfo": "Diabetic"
+  },
+  {
+    "id": "p3",
+    "name": "Rahul Mehta",
+    "dob": "1992-08-22",
+    "contact": "8899001122",
+    "healthInfo": "Hypertension"
+  }
+]

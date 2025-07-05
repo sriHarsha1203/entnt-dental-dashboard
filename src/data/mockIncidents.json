@@ -1,0 +1,103 @@
+[
+    {
+      "id": "i1",
+      "patientId": "p1",
+      "title": "Tooth Cleaning",
+      "description": "Routine cleaning",
+      "appointmentDate": "2025-07-03T10:00",
+      "cost": 500,
+      "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i2",
+      "patientId": "p2",
+      "title": "Cavity Filling",
+      "description": "Small cavity",
+      "appointmentDate": "2025-07-04T11:00",
+      "cost": 700,
+      "status": "Pending",
+      "files": []
+    },
+    {
+      "id": "i3",
+      "patientId": "p3",
+      "title": "Whitening",
+      "description": "Cosmetic treatment",
+      "appointmentDate": "2025-07-05T09:30",
+      "cost": 1500,
+      "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i4",
+      "patientId": "p2",
+      "title": "Implant Checkup",
+      "description": "Post-op follow-up",
+      "appointmentDate": "2025-07-06T14:00",
+      "cost": 900,
+      "status": "Pending",
+      "files": []
+    },
+    {
+      "id": "i5",
+      "patientId": "p2",
+      "title": "Root Canal",
+      "description": "Molar root canal treatment",
+      "appointmentDate": "2025-07-07T10:45",
+      "cost": 2500,
+      "status": "Completed",
+      "files": []
+    },
+    {
+      "id": "i6",
+      "patientId": "p3",
+      "title": "Braces Adjustment",
+      "description": "Monthly checkup",
+      "appointmentDate": "2025-07-08T16:00",
+      "cost": 1200,
+      "status": "Pending",
+      "files": []
+    },
+    {
+      "id": "i7",
+      "patientId": "p3",
+      "title": "Consultation",
+      "description": "General dental check",
+      "appointmentDate": "2025-07-09T11:15",
+      "cost": 300,
+      "status": "Pending",
+      "files": []
+    },
+    {
+      "id": "i8",
+      "patientId": "p3",
+      "title": "Extraction",
+      "description": "Wisdom tooth removal",
+      "appointmentDate": "2025-07-10T13:30",
+      "cost": 1800,
+      "status": "Pending",
+      "files": []
+    },
+    {
+      "id": "i9",
+      "patientId": "p2",
+      "title": "Follow-up",
+      "description": "Healing progress review",
+      "appointmentDate": "2025-07-11T15:00",
+      "cost": 500,
+      "status": "Pending",
+      "files": []
+    },
+    {
+      "id": "i10",
+      "patientId": "p2",
+      "title": "X-Ray Review",
+      "description": "Check after root canal",
+      "appointmentDate": "2025-07-12T10:00",
+      "cost": 400,
+      "status": "Pending",
+      "files": []
+    }
+  ]
+  

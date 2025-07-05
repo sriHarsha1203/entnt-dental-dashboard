@@ -9,7 +9,24 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
 import Home from "./pages/Home";
 
+import { useEffect } from "react";
+import { mockUsers } from "./data/mockData";
+import mockPatients from "./data/mockPatients.json";
+import mockIncidents from "./data/mockIncidents.json";
+
 function App() {
+  useEffect(() => {
+    if (!localStorage.getItem("users")) {
+      localStorage.setItem("users", JSON.stringify(mockUsers));
+    }
+    if (!localStorage.getItem("patients")) {
+      localStorage.setItem("patients", JSON.stringify(mockPatients));
+    }
+    if (!localStorage.getItem("incidents")) {
+      localStorage.setItem("incidents", JSON.stringify(mockIncidents));
+    }
+  }, []);
+
   return (
     <AuthProvider>
       <BrowserRouter>
@@ -53,15 +70,6 @@ function App() {
               </ProtectedRoute>
             }
           />
-
-          <Route
-            path="/patients/:patientId/incidents"
-            element={
-            <ProtectedRoute role="Admin">
-      <IncidentManager />
-    </ProtectedRoute>
-  }
-/>
 
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
